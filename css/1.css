@@ -1,0 +1,254 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.site-topbar{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	font-size: 12px;
+	color: #b0b0b0;
+	background-color: #333;
+
+}
+
+.container{
+	width: 1226px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container:before{
+	content: " ";
+	display: table;
+}
+.container:after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.site-topbar .topbar-nav{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	color: #ffffff;
+}
+ a{
+ 	text-decoration: none;
+ }
+
+.site-topbar a{
+	color: #b0b0b0;
+}
+
+.topbar-nav a:hover{
+	color: #ffffff;
+}
+.site-topbar .sep {
+	margin: 0 0.5em;
+	color:#424242;
+}
+
+.sep {
+	font-family: sans-serif;
+}
+
+.site-topbar .topbar-right,.site-topbar .topbar-left{
+		float: right;
+		position: relative;
+		height: 40px;
+		line-height: 40px;
+}
+
+.topbar-mi:hover{
+	color: #ffffff;
+}
+
+.site-topbar .topbar-right {
+	width: 120px;
+	margin-left: 15px;
+	text-align: center;
+}
+.topbar-right:hover{
+	color: #ff6700;
+}
+
+.site-header{
+	position: relative;
+	z-index: 20;
+	height: 100px;
+}
+
+.site-header .container{
+	position: relative;
+
+}
+
+.site-header .container:before{
+	content:" ";
+	display: table;
+}
+
+.site-header .container:after{
+	content:" ";
+	display: table;
+}
+
+
+.header-logo{
+	/*position: relative;
+	display: block;
+	text-align: left;*/
+	float: left;
+	width: 62px;
+	height: 55px;
+	margin-top: 22px;
+	background-color: #ff6700;
+	/*background: url(../img/mi-logo.png);*/
+}
+
+/*.header-logo .logo{
+	position: relative;
+	width: 55px;
+	height: 55px;
+
+}
+
+.site-header .logo:before{
+	background:url(/img/mi-logo.png);
+}*/
+
+.site-header .header-nav{
+	float: left;
+	width: 850px;
+	
+}
+
+.site-header .nav-list{
+	position: relative;
+	float: left;
+	width: 820px;
+	height: 88px;
+	margin: 0px;
+	padding: 12px 0 0 30px;
+	list-style-type: none;
+	font-size: 16px;
+}
+
+.clearfix:before{
+	content: " ";
+	display: table;
+}
+
+.clearfix:after{
+	content:" ";
+	display: table;
+	clear: both;
+}
+.clearfix{
+
+}
+
+.nav-item{
+	float: left;
+	padding: 26px 10px 38px;
+	cursor: pointer;
+}
+.nav-item:hover{
+	color: #ff6700;
+}
+
+.nav-list div{
+	position: relative;
+	float: left;
+	width: 142px;
+	height: 88px;
+}
+
+.site-header{
+	position: relative;
+	height: 100px;
+}
+
+.site-header .header-search{
+	float: right;
+	width: 296px;
+	margin-top: 25px;
+}
+
+.search-form{
+	position: relative;
+	width: 296px;
+	height: 50px;
+}
+
+.search-form .hide{
+	display: none;
+}
+
+.search-form .search-text{
+	position: absolute;
+	top: 0px;
+	right: 51px;
+	z-index: 1;
+	width: 223px;
+	height: 50px;
+	padding: 0 10px;
+	border: 1px solid #e0e0e0;
+	font-size: 14px;
+	line-height: 48px;
+	outline: 0;
+}
+
+.search-form .search-btn{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	width: 52px;
+	height: 50px;
+	border: 1px solid #e0e0e0;
+	font-size: 24px;
+	line-height: 24px;
+	background:#fff;
+	color: #616161;
+	outline: 0;
+}
+
+input[type="submit"]{
+		-webkit-appearance:button;
+		cursor: pointer;
+}
+
+.site-header .search-hot-words{
+	position: absolute;
+	top: 14px;
+	z-index: 2;
+	right: 62px;
+	text-align: right;
+}
+
+.search-hot-words a{
+	display: inline-block;
+	margin-left: 5px;
+	padding: 0 5px;
+	font-size: 12px;
+	background:#eee;
+	color: #757575;
+}
+
+.search-hot-words a:hover{
+	color: #ff6700;
+}
+
+.home-hero-container{
+	position: relative;
+	z-index: 10;
+}
+
+.home-hero{
+	position: relative;
+	margin-bottom:26px;
+}
